@@ -1,0 +1,14 @@
+{
+  "name": "emissao-cte-arcor-2",
+  "version": "1.0.0",
+  "description": "Automação de emissão de CTe via Playwright",
+  "main": "emissao.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node teste.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "dotenv": "^17.4.2"
+  }
+}
